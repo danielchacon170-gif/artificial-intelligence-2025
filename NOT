@@ -1,3 +1,4 @@
+#NOT
 import numpy as np
 
 # Entradas para la compuerta NOT (una sola entrada por fila)
