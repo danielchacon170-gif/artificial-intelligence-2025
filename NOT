@@ -1,0 +1,45 @@
+import numpy as np
+
+# Entradas para la compuerta NOT (una sola entrada por fila)
+X = np.array([
+    [0],
+    [1]
+])
+
+# Salidas esperadas para NOT
+Y = np.array([1, 0])
+
+# Peso negativo para invertir la señal
+W = [-1]
+
+# Umbral
+umbral = 0
+
+# Clase McCulloch-Pitts
+class McCullochPitts:
+    def __init__(self, weights, umbral):
+        self.weights = weights
+        self.umbral = umbral
+
+    def predict(self, X):
+        predictions = []
+        for i in range(X.shape[0]):
+            weighted_sum = np.dot(self.weights, X[i])
+            print(f"Input: {X[i]}, Weighted Sum: {weighted_sum}")
+            if weighted_sum >= self.umbral:
+                predictions.append(1)
+            else:
+                predictions.append(0)
+        return predictions
+
+# Crear instancia de la neurona
+neuron = McCullochPitts(W, umbral)
+
+# Obtener predicciones
+predictions = neuron.predict(X)
+
+# Imprimir resultados
+print("Predictions:", predictions)
+
+
+#Lo que hace la neurona es que calcula la suma de los productos x1 y x2  con sus respectivos w1 y w2, los pasa por la Función de activación para otorgarle un valor binario y podemos comprar si cumplie con la tabla de verdad para NOT
