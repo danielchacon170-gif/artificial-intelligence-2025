@@ -34,11 +34,12 @@ Backpropagation: Entendimiento del algoritmo de propagación hacia atrás.
 
 Métricas y Optimización: Uso de funciones de pérdida, optimizadores (SGD, Adam) y métricas (Accuracy.
 
-III. Arquitecturas Modernas
-Tema,Descripción,Enfoque
-Redes Convolucionales (CNN),"Implementación de capas de convolución, pooling y filtros para la extracción de características.",Procesamiento de Imágenes (CV)
-Neuronas Recurrentes (RNN),"Introducción al procesamiento de secuencias, manejo de memoria (estados ocultos) y temporalidad.","Datos Secuenciales (NLP, Series de Tiempo)"
+## III. Arquitecturas Modernas
 
+| Tema | Descripción | Enfoque |
+| :--- | :--- | :--- |
+| **Redes Convolucionales (CNN)** | Implementación de capas de convolución, *pooling* y filtros para la extracción de características. | Procesamiento de Imágenes (CV) |
+| **Neuronas Recurrentes (RNN)** | Introducción al procesamiento de secuencias, manejo de memoria (estados ocultos) y temporalidad. | Datos Secuenciales (NLP, Series de Tiempo) |
 
 Cómo Ejecutar las Prácticas
 Dado que estos archivos son Google Colab Notebooks (.ipynb), no es necesario instalar dependencias localmente.
