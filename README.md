@@ -48,7 +48,7 @@ Dado que estos archivos son **Google Colab Notebooks** (`.ipynb`), no es necesar
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/tu_usuario/tu_repositorio.git)
+    git clone https://github.com/danielchacon170-gif/artificial-intelligence-2025.git
     ```
 2.  **Abrir en Colab:**
     Simplemente navega hasta el archivo `.ipynb` deseado en el repositorio de GitHub y haz clic en el botón "Open in Colab" (o sigue la URL de Colab e importa el archivo desde GitHub).
