@@ -11,12 +11,12 @@ El contenido sigue la estructura del curso cubriendo: Fundamentos de IA, Arquite
 Las prácticas fueron implementadas utilizando el ecosistema de Python, aprovechando la aceleración por GPU de Google Colab.
 
 
-Tecnología	Rol
-Python	Lenguaje de programación principal.
-TensorFlow / Keras	Construcción, entrenamiento y evaluación de modelos de Redes Neuronales.
-NumPy	Manipulación eficiente de tensores y operaciones matriciales.
-Pandas	Carga y preprocesamiento de datasets.
-Matplotlib / Seaborn	Visualización de datos y resultados de entrenamiento.
+Tecnología,Rol
+Python,Lenguaje de programación principal.
+TensorFlow / Keras,"Construcción, entrenamiento y evaluación de modelos de Redes Neuronales."
+NumPy,Manipulación eficiente de tensores y operaciones matriciales.
+Pandas,Carga y preprocesamiento de datasets.
+Matplotlib / Seaborn,Visualización de datos y resultados de entrenamiento.
 
 
 Contenido de las Prácticas
